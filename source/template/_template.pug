@@ -1,0 +1,22 @@
+include assets/bemto/bemto
+- set_bemto_settings({ modifier: "--" })
+
+block variables
+
+include components/_head
+include components/_header
+include components/_footer
+
+doctype html
+html
+  block head
+    +head()
+
+  body
+    .wrapper
+      block header
+        +header()
+      block content
+       
+      block footer
+        +footer()

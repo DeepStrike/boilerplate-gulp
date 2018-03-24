@@ -1,0 +1,20 @@
+//config
+@import "config/variables";
+@import "config/function";
+@import "config/mixins";
+@import "config/sprite";
+
+
+
+// base
+@import "base/grid";
+@import "base/fonts"; 
+@import "base/base";
+
+//components
+@import "components/header";
+@import "components/footer";
+
+// pages
+@import "pages/index";
+
